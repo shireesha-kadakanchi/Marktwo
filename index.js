@@ -7,29 +7,29 @@ var score = 0;
 
 // array of objects
 var questions = [{
-  question: "Where do I live? ",
-  answer: "Yadhadri"
+  question: "What was the first marvel movie ? ",
+  answer: "Iron man"
 }, {
-  question: "My favorite hero would be? ",
-  answer: "Pavan Kalyan"
+  question: " Where is Captain America came from",
+  answer: "Brooklyn"
 },
 {
-  question: "My favorite sport would be? ",
-  answer: "Badminton"
+  question: "How many Infinity Stones are there ?",
+  answer: "6"
 },
 {
-  question: "My favorite tourist spot would be? ",
-  answer: "Ladak"
+  question: "Who is the father of Tony stark? ",
+  answer: "Howard stark"
 },
 {
-  question: "Where do I work? ",
-  answer:"Cognizant"
+  question: "Who is the female lead in Wanda Vision? ",
+  answer:"Elizabeth Olsen"
 }];
 
 function welcome() {
   var userName = readlineSync.question("What's your name? ");
 
-  console.log("Welcome " + userName + " to DO YOU KNOW Tanay?");
+  console.log("Welcome " + userName + " It's a quiz based on Marvel?");
 }
 
 
